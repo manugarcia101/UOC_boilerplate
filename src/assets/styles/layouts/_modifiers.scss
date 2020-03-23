@@ -1,0 +1,101 @@
+// Margins
+
+.div--mr {
+  margin-right: 1em;
+}
+  
+.div--ml {
+  margin-left: 1em;
+}
+  
+.div--mt {
+  margin-top: 1em;
+}
+
+// Paddings
+
+.div--pall {
+  padding: 10px;
+}
+  
+.div--pr {
+  padding-right: 15px;
+}
+  
+.div--pb {
+  padding-bottom: 5px;
+}
+
+// Colors
+
+.div--bg-corporate {
+  background-color: $cv-corporate;
+}
+  
+.div--highlighted {
+  color: $font-highlighted-color;
+}
+  
+.div--whited {
+  color: $font-white-color;
+}
+  
+.div--darked {
+  color: $font-title-color;
+}
+
+// Font-weight
+
+.div--regular {
+  font-weight: $font-weight-regular;
+}
+  
+.div--medium {
+  font-weight: $font-weight-medium;
+}
+  
+.div--heavy {
+  font-weight: $font-weight-heavy;
+}
+
+// Regular letter size
+
+.div--adapted_size {
+  font-size: $font-size-xsmall;
+}
+
+@media (min-width: 800px) {
+  .div--aic {
+    padding-top: 15%;
+  }
+
+  .div--pall {
+    padding: 20px;
+  }
+  
+  .div--pr {
+    padding-right: 30px;
+  }
+    
+  .div--pb {
+    padding-bottom: 10px;
+  }
+  
+  .div--adapted_size {
+    font-size: $font-size-small;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div--aic {
+    padding-top: 20%;
+  }
+
+  .div--ml {
+    margin-left: 2em;
+  }
+
+  .div--adapted_size {
+    font-size: $font-size-big;
+  }
+}

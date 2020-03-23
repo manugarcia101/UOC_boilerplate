@@ -1,0 +1,49 @@
+// Wrappers/containers
+
+.section__content {
+  grid-area: content;
+}
+
+.section__side {
+  grid-area: sidebar;
+}
+
+.section__content_info {
+  grid-area: content_info;
+}
+
+.section__side_info {
+  grid-area: sidebar_info;
+}
+
+.body__wrapper {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: "content_info" "sidebar_info" "content" "sidebar";
+}
+
+.div__main_info {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .body__wrapper {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "content_info sidebar_info" "sidebar content";
+  }
+  
+  .div__main_info {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

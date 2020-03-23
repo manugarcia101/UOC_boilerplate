@@ -19,7 +19,11 @@
  * It's a best practice to use a partial for each page
  */
 
-@import "layouts/home";
+// @import "layouts/home";
+@import "layouts/blocks";
+@import "layouts/wrappers_elements";
+@import "layouts/general_elements";
+@import "layouts/modifiers";
 
 /**
  * Do NOT include anything else in this file!

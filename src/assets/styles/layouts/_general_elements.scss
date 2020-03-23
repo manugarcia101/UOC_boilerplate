@@ -1,0 +1,48 @@
+// Titles and headers
+
+.div__headers {
+  word-break: break-word;
+  text-transform: uppercase;
+  padding-right: 2em;
+  font-family: $font-family-serif;
+}
+  
+.div__subheaders {
+  word-break: break-word;
+  text-transform: uppercase;
+  font-family: $font-family-serif;
+}
+  
+.div__title {
+  font-size: $font-size-xxbig;
+  padding-top: 0.5em;
+}
+  
+.div__subtitle {
+  font-size: $font-size-regular;
+  padding-top: 0.25em;
+}
+
+@media (min-width: 800px) {
+  .div__title {
+    font-size: $font-size-huge;
+  }
+  
+  .div__subtitle {
+    font-size: $font-size-xbig;
+  }
+  
+  .div__headers {
+    text-align: center;
+  }
+}
+  
+@media (min-width: 1200px) {
+  .div__title {
+    font-size: $font-size-xhuge;
+  }
+  
+  .div__subtitle {
+    font-size: $font-size-huge;
+  }
+}
